@@ -1,0 +1,77 @@
+html{
+  height: 100%;
+  min-height: 200px;
+  min-width: 200px;
+}
+body{
+  display: flex;
+  height: 100%;
+  margin: 0;
+  
+  color: red;
+}
+
+
+
+.background1{
+  flex: 1;
+  background-color: red;
+  
+}
+
+.background2{
+  background-color: blueviolet;
+  transform-origin: top left;
+  transform: skewX(10deg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 100%;
+}
+
+p{
+  color: blue;
+}
+
+.create-account{
+  font-family: "Raleway";
+  position: relative;
+  top: 25vh;
+  left: 15%;
+  background-color: aqua;
+  margin-right: 25%;
+}
+
+p{
+  margin: 0;
+}
+
+.create-account p{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.signin {
+  font-weight: 550;
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.signintext{
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin: 10px 0 10px 0;
+}
+
+.ifnotsignin {
+  color: red;
+  margin: 2px 0 2px 0;
+}
+
+input{
+  padding: 10px 40px 10px 40px;
+  border-radius: 7px;
+  border-width: 1px;
+}
