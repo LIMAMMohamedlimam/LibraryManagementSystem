@@ -1,5 +1,4 @@
-# Système de Gestion de Bibliothèque
-
+# System
 ## Introduction
 
 Ce Système de Gestion de Bibliothèque est une application web conçue pour gérer les opérations d'une bibliothèque, incluant l'inventaire des livres, les inscriptions des membres et les activités d'emprunt. Construit avec Django, un framework web de haut niveau en Python, ce système offre un backend robuste et une interface frontend conviviale, rendant la gestion de la bibliothèque efficace et simple.
